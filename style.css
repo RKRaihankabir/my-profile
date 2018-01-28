@@ -60,11 +60,30 @@ text-decoration:none;
     padding: 8px 0px;
 }
 .logo p:hover{
-    background: #1ea1f230;
+    border-radius: 5px;
+    background: #29A2CE;
     font-style: normal;
 }
+.home{
+    width: 95px;
+    text-align: center;
+    float: left;
+}
+.home h2{
+    font-size: 22px;
+    padding: 4px;
+    color: #ffffffb5;
+}
+.home h2:hover{
+    font-size: 22px;
+    padding: 4px;
+    color: #4e4d4d94;
+    border-radius: 5px;
+    background: #29A2CE;
+	font-style:italic;
+}
 .search-area{
-    width: 700px;
+    width: 605px;
     text-align: right;
     float: left;
 }
@@ -101,15 +120,15 @@ text-decoration:none;
     text-align: right;
 }
 .facebook:hover{
-    border-radius: 0px;
+    border-radius: 5px;
     background: #405FA2;
 }
 .email:hover{
-	border-radius: 0px;
+	border-radius: 5px;
 	background:#E65F4C;
 }
 .twitter:hover{
-	border-radius: 0px;
+	border-radius: 5px;
 	background:#32CDFD;
 }
 .facebook{
@@ -131,6 +150,8 @@ text-decoration:none;
     margin-top: 7px;
 }
 .icon-area i:hover{
+	border-radius: 0px;
+	
 
 }
 
@@ -192,12 +213,12 @@ text-decoration:none;
     width: 332px;
     margin-bottom: 5px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #29A2CE;
     font-size: 14px;
     font-family: 'Courgette', cursive;
     font-style: italic;
 }
-.ucoments{
+.textarea{
     background: #ffffff91;
     padding: 6px 10px 100px 8px;
     width: 556px;
@@ -215,7 +236,7 @@ text-decoration:none;
     border-radius: 5px;
     border: none;
     font-size: 14px;
-    background: #3939f196;
+    background: #29A2CE;
     color: white;
     float: right;
     margin-right: 8px;
@@ -247,9 +268,10 @@ font-family: 'Lato', sans-serif;
     margin-top: 0px;
 	overflow: hidden;
 	transition: 1s;
+    border-radius: 10px;
 }
 .overlay-content:hover{
-    background: #f7f1f10f;
+    background: #29A2CE;
 }
 .about{
 	width: 150px;
@@ -267,7 +289,7 @@ font-family: 'Lato', sans-serif;
 	margin-top:76px;
 }
 .about i{
-	margin-left: 48px;
+    margin-left: 40px;
     font-size: 40px;
     padding: 8px 15px 8px 15px;
     background: #e8e0efb5;
@@ -285,6 +307,7 @@ font-family: 'Lato', sans-serif;
     color: #fffdfd;
 }
 .fb i{
+    margin-left: 50px;
     background: #0037c28f;
     color: #fffdfd;
 }
@@ -421,39 +444,3 @@ h4{
     padding: 10px;
 	width:200px;
 }
-.details-3 h3{
-    background:rgba(20, 169, 228, 0.85);
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    height: 42px;
-    padding: 10px;
-	width:200px;
-}
-.details-3 h3 span{
-    font-size: 33px;
-}
-.details-3 p{
-	border: 1px solid rgba(128, 128, 128, 0.23);
-    height: 13px;
-    text-align: center;
-    font-size: 11px;
-    padding: 10px;
-	width:200px;
-}
-.details-3 h4{
-    border: 1px solid rgba(128, 128, 128, 0.23);
-    height: 21px;
-    text-align: center;
-    font-size: 15px;
-    padding: 8px;
-    background: rgba(20, 169, 228, 0.85);
-	width:200px;
-}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}

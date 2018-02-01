@@ -1,5 +1,7 @@
 
 
+
+
 *{margin:0; padding:0;}
 body{
 
@@ -120,15 +122,15 @@ text-decoration:none;
     text-align: right;
 }
 .facebook:hover{
-    border-radius: 5px;
+    border-radius: 0px;
     background: #405FA2;
 }
 .email:hover{
-	border-radius: 5px;
+	border-radius: 0px;
 	background:#E65F4C;
 }
 .twitter:hover{
-	border-radius: 5px;
+	border-radius: 0px;
 	background:#32CDFD;
 }
 .facebook{
@@ -171,10 +173,6 @@ text-decoration:none;
 	transition: 1s;
 }
 .logo-area:hover{
-    height: 130px;
-    width: 130px;
-    border: 10px solid #007eff6b;
-    left: 47%;
 
 }
 .logo-area img{
@@ -183,7 +181,7 @@ text-decoration:none;
 .banner_content{
     background: rgba(221, 221, 221, 0.44);
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 582px;
     left: 29%;
     padding: 23px;
@@ -383,64 +381,110 @@ footer p{
     margin-right: 16%;	
 	
 }
-.details-area{
-	background: rgba(255, 255, 255, 0.18);
+/*--peralax--*/
+.peralax-overlay{
+    background: #05172194;
 }
-.details{
-	overflow:hidden;
+.peralax-area{
+    background: url(img/Bg-2.jpg) no-repeat fixed 100%;
 }
-.details-1{
-	overflow: hidden;
-    float: left;
-    padding: 22px 10px;
+.peralax{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.details-1 h2{
-    background: rgba(0, 0, 0, 0.92);
-    font-size: 20px;
+.peralax-content{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+.peralax-content h2{
+    font-size: 22px;
+    text-decoration: underline;
+    padding: 10px;
+    color: #ece6e6;
+}
+.peralax-content p{
+    padding-bottom: 5px;
     color: white;
-    text-align: center;
-    height: 29px;
-    padding: 10px;
-	width:200px;
-}
-.details-1 h3{
-    background:rgba(0, 0, 0, 0.85);
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    height: 42px;
-    padding: 10px;
-	width:200px;
-}
-.details-1 h3 span{
-    font-size: 33px;
-}
-.details-1 p{
-	border: 1px solid rgba(128, 128, 128, 0.23);
-    height: 13px;
-    text-align: center;
-    font-size: 11px;
-    padding: 10px;
-	width:200px;
-}
-h4{
-    border: 1px solid rgba(128, 128, 128, 0.23);
-    height: 21px;
-    text-align: center;
     font-size: 15px;
-    padding: 8px;
-    background: rgba(0, 0, 0, 0.85);
-	width:200px;
 }
-.details-3{
-	margin-left: 496px;
-	margin-top: 22px;
-}
-.details-3 h2{
-    background: rgba(14, 151, 183, 0.92);
+.peralax-content i{
+    font-size: 59px;
     color: white;
-    text-align: center;
-    height: 29px;
-    padding: 10px;
-	width:200px;
+    background: red;
+    padding: 0px 30px 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
+/*--contact--*/
+.contact_overlay{
+    background: #00000078;
+}
+.contact_area{
+    background: url(BG-img/3.jpg);
+    background-size: 100% 100%;
+}
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact_content{
+    max-width: 620px;
+    margin: auto;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.contact_content h2{
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    word-spacing: 5px;
+    text-align: center;
+}
+.contact_content p{
+    font-size: 17px;
+    color: #ffffffeb;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.contact-input {
+    padding: 10px 16px 10px 14px;
+    font-size: 13px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    width: 227px;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+}
+.contact_content h3{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: white;
+}
+.contact-textarea {
+    margin-left: 30px;
+    padding: 5px 355px 101px 6px;
+    border-radius: 5px;
+    width: 200px;
+}
+.contact_content i{
+	font-size: 24px;
+    background: #ffffffc7;
+    padding: 3px 18px;
+    color: #191515;
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.contact_content i:hover{
+    background: #29A2CE;
+    color: #ffffffe0;
+}
+.{}
